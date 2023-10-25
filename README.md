@@ -4,6 +4,8 @@ This is a simple scaffold template to help you get started with Flask applicatio
 
 **Note:** This template is not recommended for beginners, as it assumes prior knowledge of Flask.
 
+
+
 ## Getting Started
 
 To use this template in your project, follow these steps:
@@ -76,3 +78,7 @@ This template provides two routes:
 Feel free to customize and build your Flask application upon this template.
 
 Please let me know if you need any further assistance or have any questions!
+
+##Pages
+![Home Page Preview](https://github.com/dylan-dot-c/Flask-Todo-App/blob/main/flaskHome.png?raw=true)
+![Home Page Preview](https://github.com/dylan-dot-c/Flask-Todo-App/blob/main/contactPage.png?raw=true)
