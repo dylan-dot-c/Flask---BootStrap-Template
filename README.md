@@ -1,66 +1,78 @@
-<h1>Flask Template With Bootstrap</h1>
-<p>This is a simple scaffhold template so people can get started with Flask applications as fast as possible<p>
-<b>Note</b>
-<p>This isn't suited for beginneers as they must have good knowledge of flask before using this template.</p>
+# Flask Template With Bootstrap
+
+This is a simple scaffold template to help you get started with Flask applications quickly.
+
+**Note:** This template is not recommended for beginners, as it assumes prior knowledge of Flask.
 
 ## Getting Started
 
-To get started using this template in your project, first click "Use This Template" and click create a new repository
+To use this template in your project, follow these steps:
 
-Then on the create new repo page Enter a name for your project and create it
+1. Click the "Use This Template" button and create a new repository on GitHub.
 
-next copy the url of your new created github repository and head over to vscode assuming you already created a foler for your project and opened it
+2. On the new repository page, provide a name for your project and create it.
 
-then run
-```
-  git clone <repository_url>
-```
-After you have cloned your repo locally
-You must now create a virtual environment
-to do so
-**Windows**
-```
-  python -m venv venv
+3. Copy the URL of your newly created GitHub repository and open your project folder in Visual Studio Code (assuming you've already created one).
 
-```
-**Mac**
-```
-  python3 -m venv venv
-```
+4. Clone the repository locally using the following command:
 
-after you created the venv and see a venv folder in your repo
-you should now activate it
-**Windows**
-```
-  venv\Scripts\activate
-```
-**MAC**
-```
-  enter command here for mac
-```
+   ```sh
+   git clone <repository_url>
+   ```
 
-now with your virtual env activated
+5. After cloning the repo, create a virtual environment. The process may differ between Windows and macOS:
 
-we must now install the dependencies for the current project
-```
-  pip install -r requirements.txt
-```
+   - **Windows**:
+     ```sh
+     python -m venv venv
+     ```
 
-Once Installed successfully 
-make sure that your active interpreter is ('venv':venv) 
-You can do that by opening a .py file and in the bottom right corner of VSCODE 
-Just make sure that it is what that is stated above
+   - **macOS**:
+     ```sh
+     python3 -m venv venv
+     ```
 
-Now since everything should be alright
-```
-  flask --debug run
-```
-OR
-```
-  flask --debug run -p 8080
-```
-To change the default port
+6. Activate the virtual environment. On Windows, use:
 
-Thanks for using my template!
-Happy FlaskStrapping!!
+   ```sh
+   venv\Scripts\activate
+   ```
 
+   On macOS, you can activate the virtual environment using a command similar to the Windows one. The command should be something like:
+
+   ```sh
+   source venv/bin/activate
+   ```
+
+7. With your virtual environment activated, install the project dependencies from `requirements.txt`:
+
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+8. Ensure that your active interpreter in Visual Studio Code is set to ('venv':venv). You can check and change it by opening a .py file and locating the interpreter option in the bottom-right corner of Visual Studio Code.
+
+9. Now that everything should be set up correctly, run your Flask application with the following command:
+
+   ```sh
+   flask run --debug
+   ```
+
+   If you want to specify a different port, you can use the `-p` option, like this:
+
+   ```sh
+   flask run --debug -p 8080
+   ```
+
+10. Thanks for using this template! Happy FlaskStrapping!
+
+## About This Template
+
+This template provides two routes:
+
+- **Index**: The default route.
+- **Contact**: A route that uses a WTF form for contact information.
+
+Feel free to customize and build your Flask application upon this template.
+
+Please let me know if you need any further assistance or have any questions!
